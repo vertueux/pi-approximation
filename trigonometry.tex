@@ -1,0 +1,20 @@
+\documentclass{amsart}
+\usepackage{amsmath}
+
+\title{$\pi$ Approximation}
+
+\begin{document}
+\maketitle
+
+\section*{Length of a curve}
+
+Here's the relationship giving the length of a curve in an orthonormal frame of reference of a 
+function $f:\mathbb{R}\rightarrow\mathbb{R}, x \mapsto f(x)$.
+
+$$\lambda(a,b)=\lim_{h\rightarrow 0}\sum_{\substack{i=a\\i=i+h}}^b \sqrt{(f(i+h)-
+f(h))^2+h^2}$$
+
+You can see for yourself by drawing a reference frame with a given function and using the Pythagorean Theorem.
+
+Using the function $f(x)=\sqrt{1-x^2}$ in the interval $I=[-1;1]$, we find $\pi$.
+\end{document}
